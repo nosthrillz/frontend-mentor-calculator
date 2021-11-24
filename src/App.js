@@ -2,15 +2,12 @@ import Keypad from "./components/layout/Keypad";
 import ThemeSwitch from "./components/ui/ThemeSwitch";
 import { ThemeContext } from "./features/ThemeContext";
 import { CalcContext, formatOperand } from "./features/CalcContext";
-
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 
 function App() {
   const themeCtx = useContext(ThemeContext);
   const theme = themeCtx.state.theme;
   const { state } = useContext(CalcContext);
-
-  useEffect(() => console.log(state), [state]);
 
   const appClasses = computeClass(theme, "App", ["theme2", "theme3"]);
   const displayClasses = computeClass(theme, "display", ["theme2", "theme3"]);
