@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#232C43;}
+	.st1{fill:#D1CCCC;}
+	.st2{fill:#331742;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:23.8593px;}
+	.st6{fill:#35352C;}
+	.st7{font-size:29.7637px;}
+	.st8{fill:#FFE53D;}
+	.st9{font-size:17.7754px;}
+	.st10{fill:#00D4A2;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st11{font-size:26.6996px;}
+</style>
+<path class="st0" d="M31.4,30.9h-25V9.1c0-1.8,1.5-3.3,3.3-3.3h21.7V30.9z"/>
+<path class="st1" d="M56.4,30.9h-25v-25h21.7c1.8,0,3.3,1.5,3.3,3.3V30.9z"/>
+<path class="st2" d="M31.4,55.9H9.7c-1.8,0-3.3-1.5-3.3-3.3V30.9h25V55.9z"/>
+<text transform="matrix(1 0 0 1 11.7698 24.7657)" class="st3 st4 st5">+</text>
+<text transform="matrix(1 0 0 1 36.8135 15.782)" class="st6 st4 st7">_</text>
+<text transform="matrix(1.4444 0 0 1 12.3349 48.1806)" class="st8 st4 st9">x</text>
+<circle class="st10" cx="43.7" cy="43.1" r="17"/>
+<text transform="matrix(1 0 0 1 35.7451 50.5863)" class="st3 st4 st11">=</text>
+</svg>

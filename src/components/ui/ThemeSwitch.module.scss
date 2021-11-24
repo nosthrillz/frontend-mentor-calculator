@@ -1,0 +1,73 @@
+@import '../../styles/_mixins';
+@import '../../styles/_variables';
+
+.wrapper {
+    height: fit-content;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: ". num" "theme toggle";
+    align-items: center;
+    font-weight: bold;
+    font-size: .6rem;
+    column-gap: .25rem;
+    &:hover {
+        cursor: pointer;
+    }
+
+    .number {
+        grid-area: num;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        * {
+            margin: 0 .2rem;
+        }
+    }
+
+    .theme {
+        grid-area: theme;
+    }
+
+    .toggle {
+        justify-self: center;
+        grid-area: toggle;
+        height: 1rem;
+        width: 2.5rem;
+        border-radius: 1rem;
+        padding: .25rem;
+        position: relative;
+        background: $t1-bkg-dark;
+
+        &.theme2 {
+            background: $t2-bkg-dark;
+        }
+        &.theme2 {
+            background: $t3-bkg-dark;
+        }
+
+        .circle {
+            position: absolute;
+            height: .75rem;
+            width: .75rem;
+            border-radius: .75rem;
+            background: $t1-key-bkg-equal;
+            top: .125rem;
+            left: .125rem;
+
+            &.pos2 {
+                background: $t2-key-bkg-equal;
+                left: 50%;
+                transform: translate(-50%);
+            }
+
+            &.pos3 {
+                background: $t3-key-bkg-equal;
+                right: .125rem;
+                left: unset;
+            }
+        }
+    }
+}

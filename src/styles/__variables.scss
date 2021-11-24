@@ -1,0 +1,54 @@
+// Theme 1
+// backgrounds
+$t1-bkg-main: hsl(222, 26%, 31%);
+$t1-bkg-dark: hsl(223, 31%, 20%);
+$t1-bkg-darkest: hsl(224, 36%, 15%);
+// keys
+$t1-key-bkg-del: hsl(225, 21%, 49%);
+$t1-key-shadow-del: hsl(224, 28%, 35%);
+$t1-key-bkg-equal: hsl(6, 63%, 50%);
+$t1-key-shadow-equal: hsl(6, 70%, 34%);
+$t1-key-bkg: hsl(30, 25%, 89%);
+$t1-key-shadow: hsl(28, 16%, 65%);
+// text
+$t1-txt-keys: hsl(221, 14%, 31%);
+$t1-txt-del: hsl(0, 0, 100%);
+$t1-txt-screen: $t1-txt-del;
+$t1-txt-equal: $t1-txt-del;
+
+// Theme 2
+// backgrounds
+$t2-bkg-main: hsl(0, 0%, 90%);
+$t2-bkg-dark: hsl(0, 5%, 81%);
+$t2-bkg-darkest: hsl(0, 0%, 93%);
+// keys
+$t2-key-bkg-del: hsl(185, 42%, 37%);
+$t2-key-shadow-del: hsl(185, 58%, 25%);
+$t2-key-bkg-equal: hsl(25, 98%, 40%);
+$t2-key-shadow-equal: hsl(25, 99%, 27%);
+$t2-key-bkg: hsl(45, 7%, 89%);
+$t2-key-shadow: hsl(35, 11%, 61%);
+// text
+$t2-txt-keys: hsl(60, 10%, 19%);
+$t2-txt-screen: $t2-txt-keys;
+$t2-txt-del: hsl(0, 0, 100%);
+$t2-txt-equal: $t2-txt-del;
+
+// Theme 2
+// backgrounds
+$t3-bkg-main: hsl(268, 75%, 9%);
+$t3-bkg-dark: hsl(268, 71%, 12%);
+$t3-bkg-darkest: $t3-bkg-dark;
+// keys
+$t3-key-bkg-del: hsl(281, 89%, 26%);
+$t3-key-shadow-del: hsl(285, 91%, 52%);
+$t3-key-bkg-equal: hsl(176, 100%, 44%);
+$t3-key-shadow-equal: hsl(177, 92%, 70%);
+$t3-key-bkg: hsl(268, 47%, 21%);
+$t3-key-shadow: hsl(290, 70%, 36%);
+// text
+$t3-txt-keys: hsl(52, 100%, 62%);
+$t3-txt-screen: $t3-txt-keys;
+$t3-txt-del: hsl(0, 0, 100%);
+$t3-txt-equal: hsl(198, 20%, 13%);
+

@@ -1,0 +1,110 @@
+@import './_variables';
+
+@mixin keyMain {
+    background: $t1-key-bkg;
+    color: $t1-txt-keys;
+    box-shadow: inset 0 -3px 0 0 $t1-key-shadow;
+
+    &.theme2 {
+        background: $t2-key-bkg;
+        color: $t2-txt-keys;
+        box-shadow: inset 0 -3px 0 0 $t2-key-shadow;
+    }
+    &.theme3 {
+        background: $t3-key-bkg;
+        color: $t3-txt-keys;
+        box-shadow: inset 0 -3px 0 0 $t3-key-shadow;
+    }
+}
+
+@mixin keyDel {
+    background: $t1-key-bkg-del;
+    color: $t1-txt-del;
+    box-shadow: inset 0 -3px 0 0 $t1-key-shadow-del;
+
+    &.theme2 {
+        background: $t2-key-bkg-del;
+        color: $t2-txt-del;
+        box-shadow: inset 0 -3px 0 0 $t2-key-shadow-del;
+    }
+    &.theme3 {
+        background: $t3-key-bkg-del;
+        color: $t3-txt-del;
+        box-shadow: inset 0 -3px 0 0 $t3-key-shadow-del;
+    }
+}
+
+@mixin keyEqual {
+    background: $t1-key-bkg-equal;
+    color: $t1-txt-equal;
+    box-shadow: inset 0 -3px 0 0 $t1-key-shadow-equal;
+
+    &.theme2 {
+        background: $t2-key-bkg-equal;
+        color: $t2-txt-equal;
+        box-shadow: inset 0 -3px 0 0 $t2-key-shadow-equal;
+    }
+    &.theme3 {
+        background: $t3-key-bkg-equal;
+        color: $t3-txt-equal;
+        box-shadow: inset 0 -3px 0 0 $t3-key-shadow-equal;
+    }
+}
+
+@mixin bkg {
+    background: $t1-bkg-main;
+
+    &.theme2 {
+        background: $t2-bkg-main;
+    }
+
+    &.theme3 {
+        background: $t3-bkg-main;
+    }
+}
+
+@mixin bkgDarkest {
+    background: $t1-bkg-darkest;
+    color: $t1-txt-screen;
+
+    &.theme2 {
+        background: $t2-bkg-darkest;
+        color: $t2-txt-screen;
+    }
+
+    &.theme3 {
+        background: $t3-bkg-darkest;
+        color: $t3-txt-screen;
+    }
+}
+
+@mixin bkgDark {
+    background: $t1-bkg-dark;
+
+    &.theme2 {
+        background: $t2-bkg-dark;
+    }
+
+    &.theme3 {
+        background: $t3-bkg-dark;
+    }
+}
+
+@mixin colorScreen {
+    color: $t1-txt-screen;
+
+    &.theme2 {
+        color: $t2-txt-screen;
+    }
+
+    &.theme3 {
+        color: $t3-txt-screen;
+    }
+}
+
+@mixin hoverBtn {
+    &:hover {
+        opacity: .7;
+        cursor: pointer;
+    }
+}
