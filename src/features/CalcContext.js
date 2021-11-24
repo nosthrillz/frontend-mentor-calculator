@@ -25,8 +25,13 @@ function reducer(state, { type, payload }) {
       if (payload.digit === "0" && state.current === "0") {
         return state;
       }
-      if (payload.digit === "." && state.current.includes(".")) {
-        return state;
+      if (payload.digit === ".") {
+        if (!state.current)
+          return {
+            ...state,
+            current: "0.",
+          };
+        else if (state.current.includes(".")) return state;
       }
 
       return {
